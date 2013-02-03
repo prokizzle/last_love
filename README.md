@@ -1,7 +1,7 @@
 Last Love
 ===========
 
-##Installation:
+###Installation:
         git clone https://github.com/prokizzle/last_love.git
         bundle install
 
@@ -12,7 +12,7 @@ The first time you run it, you will be asked to authorize with
 Last.fm. A website will launch and you should authorize the app
 and hit return back in a terminal session.
 
-##Usage:
+###Usage:
 
 Run with
         ruby love.rb
