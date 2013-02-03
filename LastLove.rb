@@ -1,9 +1,6 @@
 require 'rubygems'
 require 'lastfm'
 require 'launchy'
-require 'appscript'
-# itunes = Appscript.app.by_name("iTunes")
-# puts itunes.current_tracK
 
 class LastLove
 
