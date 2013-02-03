@@ -1,3 +1,12 @@
+#! /usr/bin/env ruby
+#
+# == Author
+#   Nick Prokesch
+#
+# == Copyright
+#   Copyright (c) 2013 Nick Prokesch. Licensed under the MIT License:
+#   http://www.opensource.org/licenses/mit-license.php
+
 require 'rubygems'
 require 'lastfm'
 require 'launchy'
@@ -35,12 +44,12 @@ class LastLove
       end
     rescue Exception => e
       puts e.message
-      @account_valid = false
+      @no_errors = false
     end
-end
+  end
 
-  def account_valid
-    @account_valid
+  def no_errors
+    @no_errors
   end
 
   def scrobble
@@ -77,7 +86,7 @@ end
   end
 
   def run
-    self.love if account_valid
+    self.love if no_errors
   end
 
 end
