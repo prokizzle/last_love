@@ -3,7 +3,6 @@ require 'launchy'
 
 api_key = "b7504d75a130985d48183fb37f0536a9"
 api_secret = "bd50f784539cc8cd698185aeeb1c2400"
-session= "62999652a9386ed0c9d00ba83c8fe7da"
 
 lastfm = Lastfm.new(api_key, api_secret)
 
